@@ -3,14 +3,14 @@ $(document).ready(function() {
 	//////////////////////////////////////////////////////////////////////////////
 	////     INSERT YOUR NODE RPC URL, NETWORK ID AND GAS PRICE HERE        //////
 	//////////////////////////////////////////////////////////////////////////////
-	var rpcURL = "http://your-fancy-node-url:8545";
-	var networkID = 12345;
-	var minGasPrice = 0;
+	var rpcURL = "https://rpctest.meter.io/";
+	var networkID = 83;
+	var minGasPrice = 1;
 	//////////////////////////////////////////////////////////////////////////////
 	////     INSERT THE TOKEN AND FAUCET ADDRESS HERE                       //////
 	//////////////////////////////////////////////////////////////////////////////
-	var token_address = '0x0000000000000000000000000000000000000000';
-	var faucet_address = '0x0000000000000000000000000000000000000000';
+	var token_address = '0x8928b81ce85d7a35071df21eb69e60302a0b8e58';
+	var faucet_address = '0x5082F6E78384BD4eE0487B7310842FE95Ca26aA3';
 	//////////////////////////////////////////////////////////////////////////////
 
 	var account;

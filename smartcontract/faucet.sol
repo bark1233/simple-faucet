@@ -6,8 +6,8 @@ interface ERC20 {
 }
 
 contract Faucet {
-    uint256 constant public tokenAmount = 100000000000000000000;
-    uint256 constant public waitTime = 30 minutes;
+    uint256 constant public tokenAmount = 40000000000000000000;
+    uint256 constant public waitTime = 120 minutes;
 
     ERC20 public tokenInstance;
     
