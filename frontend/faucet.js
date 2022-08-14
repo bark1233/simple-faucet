@@ -31,7 +31,7 @@ $(document).ready(function() {
 	function setAccount() {
 		web3.version.getNetwork(function(err, netId) {
 			if (!err && netId == networkID) { 
-				$("#wrong_network").fadeOut(1000);
+				$("#wrong_network").fadeIn(1000);
 				setTimeout(function(){ $("#correct_network").fadeIn(); $("#faucet").fadeIn(); }, 1000);
 				account = web3.eth.accounts[0];
 				$("#address").text(account);
